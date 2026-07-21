@@ -1,0 +1,30 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local logs and temporary files
+04_logs/
+00_admin/*.log
+00_admin/*_runtime*
+*.tmp
+
+# Downloaded/raw material and generated caches
+01_validation/01_raw_sources/**
+01_validation/02_downloads/**
+01_validation/03_extracted/**
+02_full_collection/01_raw_sources/**
+02_full_collection/02_candidate_key_papers/**
+02_full_collection/03_matched_metadata/**
+02_full_collection/04_manual_review/**
+02_full_collection/05_outputs/**
+02_full_collection/06_analysis/**
+
+# Keep directory placeholders
+!.gitkeep
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
